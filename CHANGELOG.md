@@ -15,3 +15,4 @@ All notable changes and engineering updates are documented here.
 - `2025-05-27`: Optimize CSS grid layout across different screen sizes
 - `2025-05-27`: Add wishlist toggle functionality on product cards
 - `2025-05-27`: Add product search bar with debounced query suggestions
+- `2025-06-13`: Refactor component props with strict prop types
