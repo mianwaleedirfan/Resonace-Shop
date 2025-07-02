@@ -25,3 +25,4 @@ All notable changes and engineering updates are documented here.
 - `2025-06-26`: Clean up redundant CSS classes and modularize styles
 - `2025-06-26`: Add customer order history view and status tracker
 - `2025-06-26`: Add wishlist toggle functionality on product cards
+- `2025-07-02`: Add product search bar with debounced query suggestions
