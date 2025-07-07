@@ -27,3 +27,4 @@ All notable changes and engineering updates are documented here.
 - `2025-06-26`: Add wishlist toggle functionality on product cards
 - `2025-07-02`: Add product search bar with debounced query suggestions
 - `2025-07-03`: Add product search bar with debounced query suggestions
+- `2025-07-07`: Implement checkout form validation and error highlights
