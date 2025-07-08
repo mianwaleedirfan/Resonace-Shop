@@ -29,3 +29,4 @@ All notable changes and engineering updates are documented here.
 - `2025-07-03`: Add product search bar with debounced query suggestions
 - `2025-07-07`: Implement checkout form validation and error highlights
 - `2025-07-08`: Implement checkout form validation and error highlights
+- `2025-07-08`: Add customer order history view and status tracker
