@@ -1,0 +1,87 @@
+/* Navbar background fills full width with no vertical padding */
+.custom-navbar {
+  width: 100%;
+  background-color: #d6d0c8;
+  /* padding: 0 2rem;  */
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+  height: 60px; /* fixed height for consistent navbar size */
+  display: flex;
+  align-items: center; /* vertical center */
+}
+
+/* Inner container limits max width but fills full height */
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; /* full height of navbar */
+}
+
+/* Group nav links and button on right */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+/* Remove default ul padding and margin */
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Brand styling */
+.custom-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4e433f;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Icon spacing */
+.logo-icon {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  color: #4e433f;
+}
+
+/* Nav links */
+.nav-links a {
+  text-decoration: none;
+  color: #4e433f;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #3a302c;
+}
+
+/* Compare button */
+.compare-button {
+  background: linear-gradient(145deg, #5a4e48, #443c38);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.compare-button:hover {
+  background: linear-gradient(145deg, #3a302c, #2e2926);
+}

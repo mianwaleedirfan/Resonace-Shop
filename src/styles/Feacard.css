@@ -1,0 +1,60 @@
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to right, #f5f0e1, #ffe5d0);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  max-width: 900px;
+  margin: 2rem auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature-text {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-text h2 {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.feature-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    flex-direction: column;
+  }
+
+  .feature-image {
+    justify-content: center;
+  }
+
+  .feature-text {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .feature-text h2 {
+    font-size: 1.5rem;
+  }
+}

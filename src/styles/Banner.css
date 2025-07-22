@@ -1,0 +1,53 @@
+.banner {
+  position: relative;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #d6d0c8 0%, #f5f5f5 100%);
+  font-family: Arial, sans-serif;
+  overflow: visible;
+}
+
+.sub-text {
+  position: absolute;
+  font-size: 6.5rem;
+  font-weight: 800;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  user-select: none;
+  width: 100%;
+
+  /* Vertical gradient from top to bottom */
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+
+
+
+/* Headphones in the middle layer */
+.headphones-image {
+  position: relative;
+  width: 720px;
+  height: auto;
+  z-index: 2;
+}
+
+/* Main text on top */
+.main-text {
+  position: absolute;
+  font-size: 7rem;
+  font-weight: 900;
+  color: #4a453f;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  user-select: none;
+}

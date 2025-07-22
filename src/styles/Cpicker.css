@@ -1,0 +1,82 @@
+.cpicker-container {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cpicker-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.cpicker-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cpicker-img {
+  width: 120px;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  user-select: none;
+}
+
+.cpicker-img.main {
+  width: 520px;
+  transform: scale(1.1);
+}
+
+.cpicker-img.blurred {
+  filter: blur(4px);
+  opacity: 0.5;
+}
+
+.cpicker-swatches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cpicker-swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.cpicker-swatch.active {
+  transform: scale(1.2);
+  border-color: #333;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.cpicker-caption {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .cpicker-img.main {
+    width: 160px;
+  }
+
+  .cpicker-img {
+    width: 80px;
+  }
+
+  .cpicker-heading {
+    font-size: 1.5rem;
+  }
+
+  .cpicker-caption {
+    font-size: 0.9rem;
+  }
+}
