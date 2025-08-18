@@ -43,3 +43,4 @@ All notable changes and engineering updates are documented here.
 - `2025-08-12`: Add customer order history view and status tracker
 - `2025-08-17`: Add wishlist toggle functionality on product cards
 - `2025-08-18`: Refactor component props with strict prop types
+- `2025-08-18`: Refactor store landing page hero banner layout
