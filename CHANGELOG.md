@@ -46,3 +46,4 @@ All notable changes and engineering updates are documented here.
 - `2025-08-18`: Refactor store landing page hero banner layout
 - `2025-08-19`: Refactor store landing page hero banner layout
 - `2025-08-19`: Add product search bar with debounced query suggestions
+- `2025-08-22`: Implement checkout form validation and error highlights
