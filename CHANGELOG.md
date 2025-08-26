@@ -49,3 +49,4 @@ All notable changes and engineering updates are documented here.
 - `2025-08-22`: Implement checkout form validation and error highlights
 - `2025-08-22`: Clean up redundant CSS classes and modularize styles
 - `2025-08-22`: Refactor store landing page hero banner layout
+- `2025-08-26`: Implement checkout form validation and error highlights
