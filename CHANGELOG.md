@@ -56,3 +56,4 @@ All notable changes and engineering updates are documented here.
 - `2025-08-29`: Refactor component props with strict prop types
 - `2025-09-02`: Add customer order history view and status tracker
 - `2025-09-02`: Clean up redundant CSS classes and modularize styles
+- `2025-09-13`: Implement checkout form validation and error highlights
